@@ -6,7 +6,7 @@ public class numerospares{
 int[] pares = new int[10];
 int contadorPares = 0;
 
-System.out.println("Digite 100 números:");
+System.out.println("Digite 10 números:");
 for (int i = 0; i < numeros.length; i++){
     System.out.print("Número" + (i + 1) + ":");
     numeros[i] = input.nextInt();
@@ -26,4 +26,5 @@ for (int i = 0; i < contadorPares; i++) {
 
 
     }
+
 }
